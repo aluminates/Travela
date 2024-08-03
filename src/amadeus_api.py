@@ -1,8 +1,8 @@
 from amadeus import Client, ResponseError
 
 amadeus = Client(
-    client_id='GCkJaR6wGQDtdUneQioTrjptkQvNIQm7',
-    client_secret='WngUXyE638HGLuKv'
+    client_id='ENTER_API_KEY_HERE',
+    client_secret='ENTER_API_SECRET_HERE'
 )
 
 def get_location_code(keyword, subType='CITY'):
